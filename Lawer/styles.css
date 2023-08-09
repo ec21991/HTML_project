@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #1e313e;
+  padding: 10px;
+}
+
+.item {
+  color: #efd3a2;
+  padding: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section_header {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: #1e313e;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section_about {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1e313e;
+  padding: 60px;
+}
+
+.about_us {
+  align-self: center;
+  padding: 10px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+span {
+  color: #1e313e;
+  background-color: #bb8a5e;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  margin: 40px;
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  background-color: #1e313e;
+  padding: 80px;
+  color: #ffffff;
+}
+
+.reason_block {
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  background-color: #1e313e;
+  padding: 60px;
+}
+
+.prices {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #1e313e;
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  background-color: #1e313e;
+  padding: 50px;
+}
+
+.btn {
+  background-color: #1e313e;
+  color: #efd3a2;
+  margin-left: 10px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.footer_container {
+  background-color: #1e313e;
+  padding: 5px;
+}
+
+.footer {
+  color: #efd3a2;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #efd3a2;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+@media all and (max-width:820px) {
+  .wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width:800px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .section_about {
+    flex-wrap: wrap;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .prices {
+    flex-wrap: wrap;
+  }
+  .money_img {
+    width: 150px;
+  }
+  span {
+    font-size: 40px;
+    margin: 20px;
+    padding: 10px;
+  }
+  .services_img {
+    width: 350px;
+  }
+
+  giv.gmap_canvas,
+  div.mapouter,
+  iframe {
+    width: 100%;
+  }
+}
+
+@media all and (max-width:500px) {
+img{
+	width: 100%;
+}
+span{
+	padding: 10px;
+	margin: 10px;
+}
+.reason_block{
+	padding: 10px;
+}
+}
